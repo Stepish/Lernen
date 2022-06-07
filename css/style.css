@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Общие настройки */
+@font-face {
+    font-family: myfont;
+    src: url("../fonts/Joan-Regular.ttf");
+}
+
+
+body {
+    font-family: myfont;
+   }
