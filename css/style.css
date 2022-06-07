@@ -14,5 +14,32 @@
 
 
 body {
+    width: 100vw;
     font-family: myfont;
-   }
+}
+
+/* Шапка сайта */
+.head {
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.head img {
+    margin: auto;
+    width: 20vw;
+    grid-area: 1/1/4/2;
+}
+
+/* навигация */
+.lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    margin: 1vw;
+    padding: 1vw 4vw;
+}
